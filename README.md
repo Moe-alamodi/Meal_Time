@@ -1,11 +1,11 @@
-# Meal Time
+# MEAL TIME
 
 <p align="center">
   <a href="https://github.com/Moe-alamodi/food_ordering_app/">
-    <img src="./meals-logo.png" alt="Logo" width="300" height="100">
+    <img src="./public/meals-logo.png" alt="Logo" width="300" height="200">
   </a>
 
-  <h3 align="center">HoobMeal Timeank</h3>
+  <h3 align="center">Meal Time</h3>
 
   <p align="center">
     Modern responsive food ordering web app.
@@ -27,7 +27,7 @@
 
 ![Portfolio Website](https://i.ibb.co/8cBVP6Z/food-ordering-app.png)
 
-Meal Time is a modern and responsive website for a function restaurant. The idea of the project is to give the customer the ability to order delicious food and add it to their cart. Also the customer will be able to edit and manage the items from their cart.
+Meal Time is a modern and responsive website for a finctional restaurant. The idea of the project is to give the customer the ability to order delicious food and add it to their cart. Also the customer will be able to edit and manage the items from their cart.
 
 ### Built With
 
