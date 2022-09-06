@@ -1,7 +1,7 @@
 # MEAL TIME
 
 <p align="center">
-  <a href="https://github.com/Moe-alamodi/food_ordering_app/">
+  <a href="https://mealtimerestaurant.netlify.app/">
     <img src="./public/meals-logo.png" alt="Logo" width="300" height="200">
   </a>
 
@@ -13,7 +13,7 @@
     <a href="#about-the-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Moe-alamodi/food_ordering_app">View Demo</a>
+    <a href="https://mealtimerestaurant.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/Moe-alamodi/food_ordering_app/issues">Report Bug</a>
     ·
