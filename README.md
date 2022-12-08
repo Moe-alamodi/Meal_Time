@@ -15,9 +15,9 @@
     <br />
     <a href="https://mealtimerestaurant.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/Moe-alamodi/food_ordering_app/issues">Report Bug</a>
+    <a href="https://github.com/Moe-alamodi/Meal_Time.git/issues">Report Bug</a>
     ·
-    <a href=https://github.com/Moe-alamodi/food_ordering_app/issues">Request Feature</a>
+    <a href="https://github.com/Moe-alamodi/Meal_Time.git/issues">Request Feature</a>
   </p>
 </p>
 
@@ -57,7 +57,7 @@ Start with the latest version of NPM to avoid any errors:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Moe-alamodi/food_ordering_app.git
+   git clone https://github.com/Moe-alamodi/Meal_Time.git
    ```
 2. Install NPM packages
    ```sh
