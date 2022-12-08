@@ -15,9 +15,9 @@
     <br />
     <a href="https://mealtimerestaurant.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/Moe-alamodi/Meal_Time.git/issues">Report Bug</a>
+    <a href="https://github.com/Moe-alamodi/Meal_Time/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Moe-alamodi/Meal_Time.git/issues">Request Feature</a>
+    <a href="https://github.com/Moe-alamodi/Meal_Time/issues">Request Feature</a>
   </p>
 </p>
 
