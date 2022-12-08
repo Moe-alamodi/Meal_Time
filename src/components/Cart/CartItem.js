@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./CartItem.module.css";
 const CartItem = ({ item, onAdd, onRemove }) => {
-  const price = `$${item.price.toFixed(2)}`;
+  const price = `$${item.price}`;
 
   return (
     <li className={styles["cart-item"]}>

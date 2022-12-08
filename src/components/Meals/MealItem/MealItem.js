@@ -4,7 +4,7 @@ import styles from "./MealItem.module.css";
 import MealItemForm from "./MealItemForm";
 const MealItem = ({ meal }) => {
   const cartCxt = useContext(CartContext);
-  const price = `$${meal.price.toFixed(2)}`;
+  const price = `$${meal.price}`;
   const addCartHandler = (amount) => {
     cartCxt.addItem({
       id: meal.id,

@@ -4,6 +4,7 @@ import CartContext from "./cart-context";
 const defaultCartState = { items: [], totalAmount: 0 };
 const ADD_CART_ITEM = "ADD";
 const REMOVE_CART_ITEM = "REMOVE";
+const EMPTY_CART = "EMPTY";
 
 const cartReducer = (state, action) => {
   switch (action.type) {
@@ -60,6 +61,8 @@ const cartReducer = (state, action) => {
         items: updatedItemsOnRemove,
         totalAmount: updatedTotalAmountOnRemove,
       };
+    case EMPTY_CART:
+      return defaultCartState;
 
     default:
       return defaultCartState;
@@ -77,12 +80,15 @@ const CartProvider = ({ children }) => {
   const removeItemToCartHandler = (id) => {
     dispatchCartAction({ type: REMOVE_CART_ITEM, payload: id });
   };
-
+  const emptyCartHandler = () => {
+    dispatchCartAction({ type: EMPTY_CART });
+  };
   const cartContext = {
     items: cartState.items,
     totalAmount: cartState.totalAmount,
     addItem: addItemToCartHandler,
     removeItem: removeItemToCartHandler,
+    clearCart: emptyCartHandler,
   };
   return (
     <CartContext.Provider value={cartContext}>{children}</CartContext.Provider>
